@@ -180,10 +180,12 @@ table.meta td {
 table.inventory th {
     font-weight: bold;
     text-align: center;
+    page-break-inside: avoid;
 }
 
 table.inventory td {
     text-align: right;
+    page-break-inside: avoid;
 }
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
