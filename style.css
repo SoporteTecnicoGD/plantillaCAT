@@ -46,6 +46,7 @@ table {
     font-size: 75%;
     table-layout: fixed;
     width: 100%;
+    page-break-inside: avoid;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
 }
 
@@ -54,6 +55,7 @@ th, td {
     padding: 0.5em;
     position: relative;
     text-align: left;
+    page-break-inside: avoid;
 }
 
 th {
