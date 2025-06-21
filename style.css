@@ -11,6 +11,14 @@
     vertical-align: top;
 }
 
+/* secciones de tabla de subtablas */
+.div-seccion {
+    page-break-inside: avoid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
 /* content editable */
 *[contenteditable] {
     border-radius: 0.25em;
