@@ -23,6 +23,15 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/*BARRA SUPERIOR*/
+.barra-superior {
+    width: 100%;
+    height: 40px;
+    background-color: #033495;
+    margin-bottom: 30px;
+}
+
+
 /* BODY & PAGE */
 html {
     font: 16px/1.6 'Segoe UI', 'Open Sans', sans-serif;
