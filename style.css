@@ -272,3 +272,9 @@ tr:hover .cut {
 .small-text {
     font-size: 60%;
 }
+
+.imagen-centrada {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
