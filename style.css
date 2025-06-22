@@ -32,6 +32,11 @@
 
 
 /* SECCIONES */
+.pagina-seccion {
+    page-break-before: always;
+    page-break-inside: avoid;
+}
+
 .div-seccion {
     page-break-before: always; /* <-- fuerza salto de página */
     margin-top: 50px;
