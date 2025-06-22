@@ -33,7 +33,7 @@
 
 /* SECCIONES */
 .div-seccion {
-    page-break-inside: avoid;
+    page-break-before: always; /* <-- fuerza salto de página */
     margin-top: 50px;
     margin-bottom: 20px;
     padding: 20px;
