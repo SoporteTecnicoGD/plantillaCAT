@@ -23,41 +23,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/*BARRA SUPERIOR*/
-.barra-superior {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #033495;
-    padding: 20px 40px;
-    text-align: center;
-    border-radius: 0 0 12px 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-.barra-superior h1 {
-    color: #ffffff;
-    font-size: 1.8em;
-    font-weight: 600;
-    margin: 0;
-    letter-spacing: 1px;
-    font-family: 'Segoe UI', 'Open Sans', sans-serif;
-}
-
-
 /* BODY & PAGE */
-
-.imagen-centrada {
-    display: block;
-    margin: 30px auto;
-    width: 50%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 html {
     font: 16px/1.6 'Segoe UI', 'Open Sans', sans-serif;
     overflow: auto;
@@ -213,7 +179,6 @@ table.inventory td {
     }
 
     body {
-        padding-top: 110px; /* mismo valor o un poco más que la altura total de la barra */
         box-shadow: none;
         margin: 0;
     }
@@ -238,16 +203,10 @@ table.inventory td {
     font-size: 60%;
 }
 
-/*.imagen-centrada {
+.imagen-centrada {
     display: block;
     margin: 20px auto;
     width: 50%;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.imagen-centrada {
-    display: block;
-    margin: auto;
-    width: 50%;
-}*/
